@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const mysql = require('mysql');
 mongoose.set('useCreateIndex', true);
-mongoose.connect('mongodb://localhost/db_project');  //connect db
+mongoose.connect('mongodb+srv://bhumikaporiya16:0RVox31ifdVCuDkY@cluster0.erfqyfh.mongodb.net/?retryWrites=true&w=majority&appName=cluster0');  //connect db
 const db = mongoose.connection;  //acquire the connection
 
 
